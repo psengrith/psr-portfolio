@@ -1,0 +1,161 @@
+.img-profile {
+    height: 145px;
+    width: 145px;
+    margin: 0px auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#header-container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+#intro .mask.rgba-gradient {
+   /* fallback for old browsers */
+    background: #DC353B;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(45deg, rgba(102,126,234,1), rgba(220,53,69,1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(45deg, rgba(102,126,234,1), rgba(220,53,69,1));
+}
+
+#details {
+    display: inline-block;
+}
+
+#details-summary {
+    float: left;
+    position: sticky!important;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 250px;
+    height: 100vh;
+    z-index: 99;
+    overflow-y: scroll!important;
+
+    /* fallback for old browsers */
+    background: #667eea;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, rgba(102,126,234,1), rgba(118,75,162,1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, rgba(102,126,234,1), rgba(118,75,162,1));
+}
+
+.detials-group {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.detials-group ul {
+   padding-inline-start: 20px;
+}
+
+#detials-viewport {
+    position: static;
+    margin-left: 250px;
+}
+
+.smaller {
+    font-size: smaller!important;
+}
+
+section {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#table-full-experiences, #table-part-experiences, #table-part-experiences tbody,#table-full-experiences tbody {
+    vertical-align: top;
+}
+
+#table-full-experiences td, #table-part-experiences td {
+    padding: 5px;
+}
+
+#section-projects img {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+#carousel-projects {
+    display: none!important;
+}
+
+#grid-projects {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+#grid-projects .testimonial {
+   padding: 10px;
+   display: grid;
+   grid-template-columns: 90px 1fr;
+}
+
+#grid-projects .project-info {
+    padding-left: 10px;
+}
+
+#grid-projects .wrapper {
+    margin-right: 5px;
+}
+
+#grid-projects .wrapper:nth-child(n+3) {
+    border-top: 1px solid gray;
+}
+
+#section-fav-books #fav-books, #section-fav-movies #fav-movies {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#section-fav-books .card, #section-fav-movies .card {
+    flex: 0 0 auto;
+    width: 168px!important;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#section-fav-books img, #section-fav-movies img {
+    height: 225px!important;
+    object-fit: cover;
+}
+
+
+#section-fav-books .card-body, #section-fav-movies .card-body {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: hsl(39deg 77% 83% / 95%);
+    padding: 5px!important;
+    line-height: 1.4em;
+}
+
+#section-fav-books .card-title, #section-fav-movies .card-title {
+    display: -webkit-box;
+   -webkit-line-clamp: 2;
+           line-clamp: 2;
+   -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 4em;
+    font-weight: bold;
+    margin: 0 0 5px 0!important;
+}

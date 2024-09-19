@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="PROM SENGRITH">
+  <meta name="title" content="Sengrith PROM - Portolio">
+  <title>Sengrith PROM - Portolio</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="./css/mdb.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+
+  <style>
+    html,
+    body,
+    header,
+    .intro-section {
+      max-height: 168px !important;
+    }
+
+    @media print {
+
+      html,
+      body {
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      header {
+        position: static;
+        display: block;
+      }
+
+      main {
+        position: static;
+        display: inline-block;
+        height: calc(100vh - 175px) !important;
+        overflow: auto !important;
+      }
+
+      hr {
+        margin-top: 0 !important;
+        margin-bottom: .5rem !important;
+      }
+
+      .wow {
+        visibility: visible !important;
+      }
+
+      #grid-projects {
+        display: grid !important;
+        visibility: visible !important;
+      }
+
+      #section-fav-movies,
+      #carousel-projects,
+      .dotted-scrollspy,
+      .carousel-control,
+      .wrapper-carousel-fix,
+      footer {
+        display: none !important;
+        visibility: hidden !important;
+      }
+
+    }
+  </style>
+</head>
+
+<body class="agency">
+
+  <!-- Navigation & Intro -->
+  <header>
+    <!-- Video -->
+    <section class="view intro-section" id="intro">
+
+      <video class="video-intro"
+        poster="https://mdbootstrap.com/img/Photos/Horizontal/Things/full%20page/img%20%287%29.jpg" playsinline autoplay
+        muted loop>
+
+        <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4">
+
+      </video>
+
+      <div class="mask rgba-gradient">
+
+        <div class="container-fluid p-3 h-100" id="header-container">
+
+          <img class="img-profile" src="">
+
+          <div class="white-text smooth-scroll overflow-hidden d-flex align-items-center">
+
+            <div class="white-text text-left">
+
+              <h4 class="display-4 font-weight-bold text-truncate" id="fullname"></h4>
+              <h5 class="display-5" id="sum-about"></h5>
+
+              <!-- <h5 class="mb-5">Design Agency based in San Francisco</h5>
+
+                <a class="btn btn-outline-white btn-rounded wow fadeInUp" data-wow-delay="0.2s" href="#about"
+                  data-offset="100"> <span>EXPLORE MORE</span> </a> -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </header>
+  <!-- Navigation & Intro -->
+
+  <!-- Main layout -->
+  <main>
+
+    <div class="container-fluid p-0" id="details">
+
+      <div class="white-text p-2" id="details-summary">
+        <div class="detials-group">
+          <h5 class="white-text font-weight-bold border-bottom">Contacts</h5>
+          <div class="pl-2" id="sum-contacts">
+          </div>
+        </div>
+
+        <div class="detials-group">
+          <h5 class="white-text font-weight-bold border-bottom">Social IDs</h5>
+          <div class="pl-2" id="sum-social-ids">
+          </div>
+        </div>
+
+        <div class="detials-group">
+          <h5 class="white-text font-weight-bold border-bottom">Experiences</h5>
+          <ul class="m-0" id="sum-exp">
+            <!-- <li><b>2024: </b><span>EHRELL</span></li>
+          <li><b>2024: </b><span>University of Health Sciences</span></li>
+          <li><b>2024: </b><span>P.P.M</span></li> -->
+          </ul>
+        </div>
+
+        <div class="detials-group">
+          <h5 class="white-text font-weight-bold border-bottom">Education</h5>
+          <ul class="m-0" id="sum-education">
+            <!-- <li><b>2024: </b><span>BSc. in Computer Sciences</span></li>
+          <li><b>2024: </b><span>BSc. in Computer Sciences</span></li>
+          <li><b>2024: </b><span>BSc. in Computer Sciences</span></li>
+          <li><b>2024: </b><span>BSc. in Computer Sciences</span></li> -->
+          </ul>
+        </div>
+
+        <!-- <div class="details-group">
+          <div class="row">
+            <div class="col-md-12 my-4 wow fadeIn" data-wow-delay="0.3s">
+              <div class="footer-socials mt-1 text-center">
+
+
+                <a type="button" class="btn-floating btn-secondary" id="linkedin-link" target="_blank"><i
+                    class="fab  fa-linkedin"></i></a>
+
+
+                <a type="button" class="btn-floating btn-secondary" id="facebook-link" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a>
+
+
+                <a type="button" class="btn-floating btn-secondary" id="instagram-link" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div> -->
+
+      </div>
+
+      <div id="detials-viewport" class="pt-3">
+
+        <section class="section mb-3" id="section-full-experiences">
+          <h3 class="text-uppercase font-weight-bold m-0 wow fadeIn" data-wow-delay="0.2s">Experiences
+          </h3>
+          <hr class="between-sections">
+          <div class="p-2">
+            <table id="table-full-experiences">
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section mb-3" id="section-part-experiences">
+          <h3 class="text-uppercase font-weight-bold m-0 wow fadeIn" data-wow-delay="0.2s">Experiences (Part-Time)
+          </h3>
+          <hr class="between-sections">
+          <div class="p-2">
+            <table id="table-part-experiences">
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section mb-3" id="section-publications">
+          <h3 class="text-uppercase font-weight-bold m-0 wow fadeIn" data-wow-delay="0.2s">Publications
+          </h3>
+          <hr class="between-sections">
+          <div class="p-2">
+            <ul id="list-publictions">
+
+            </ul>
+          </div>
+        </section>
+
+
+        <!-- Section: Testimonials v.2 -->
+        <section class="section mb-3" id="section-projects">
+
+          <!-- Section heading -->
+          <h3 class="text-uppercase font-weight-bold m-0 wow fadeIn" data-wow-delay="0.2s">Projects
+          </h3>
+
+          <hr class="between-sections">
+
+          <div id="grid-projects" class="p-2">
+
+          </div>
+
+          <!-- Carousel Wrapper -->
+          <div class="wrapper-carousel-fix">
+
+            <div id="carousel-projects" class="carousel no-flex testimonial-carousel slide carousel-fade"
+              data-ride="carousel" data-interval="3000">
+
+              <!-- Slides -->
+              <div class="carousel-inner" role="listbox" id="projects">
+
+              </div>
+              <!-- Slides -->
+
+              <!-- Controls -->
+              <a class="carousel-control-prev left carousel-control" href="#carousel-projects" role="button"
+                data-slide="prev">
+
+                <span class="icon-prev" aria-hidden="true"></span>
+
+                <span class="sr-only">Previous</span>
+
+              </a>
+
+              <a class="carousel-control-next right carousel-control" href="#carousel-projects" role="button"
+                data-slide="next">
+
+                <span class="icon-next" aria-hidden="true"></span>
+
+                <span class="sr-only">Next</span>
+
+              </a>
+              <!-- Controls -->
+
+            </div>
+            <!-- Carousel Wrapper -->
+
+          </div>
+
+        </section>
+        <!-- Section: Testimonials v.2 -->
+
+        <section class="section mb-3" id="section-fav-books">
+          <h3 class="text-uppercase font-weight-bold m-0 wow fadeIn" data-wow-delay="0.2s">Favorite Books
+          </h3>
+          <hr class="between-sections">
+          <div class="p-2 w-100" id="fav-books">
+
+          </div>
+        </section>
+
+        <section class="section mb-3" id="section-fav-movies">
+          <h3 class="text-uppercase font-weight-bold m-0 wow fadeIn" data-wow-delay="0.2s">Favorite Movies/Series
+          </h3>
+          <hr class="between-sections">
+          <div class="p-2" id="fav-movies">
+
+          </div>
+        </section>
+
+        <!-- Scrollspy -->
+        <div class="dotted-scrollspy clearfix d-none d-sm-block">
+
+          <ul class="nav smooth-scroll flex-column">
+
+            <li class="nav-item"><a class="nav-link" href="#home"><span></span></a></li>
+
+            <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
+
+            <li class="nav-item"><a class="nav-link" href="#portfolio"><span></span></a></li>
+
+            <li class="nav-item"><a class="nav-link" href="#contact"><span></span></a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="page-footer text-center text-md-left mt-0">
+
+          <!-- Copyright -->
+          <div class="footer-copyright py-3 text-center">
+
+            <div class="container-fluid">
+
+              © 2024 Copyright | <a href="#" target="_blank"> Sengrith PROM (PSR)
+              </a>
+
+            </div>
+
+          </div>
+          <!-- Copyright -->
+      </div>
+    </div>
+  </main>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript " src="./js/libs/jquery-3.4.1.min.js "></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript " src="./js/libs/popper.min.js "></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript " src="./js/libs/bootstrap.min.js "></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript " src="./js/libs/mdb.min.js "></script>
+  <!-- Custom Script -->
+  <script type="text/javascript " src="./js/script.js"></script>
+
+  <script>
+    // initialize scrollspy
+    $('body').scrollspy({
+
+      target: '.dotted-scrollspy'
+    });
+
+    // initialize lightbox
+    $(function () {
+
+      $("#mdb-lightbox-ui ").load("mdb-addons/mdb-lightbox-ui.html ");
+    });
+
+    /* WOW.js init */
+    new WOW().init();
+
+    $('.navbar-collapse a').click(function () {
+
+      $(".navbar-collapse ").collapse('hide');
+    });
+
+  </script>
+
+</body>
+
+</html>

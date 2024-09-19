@@ -1,0 +1,308 @@
+{
+    "last_name": "Sengrith",
+    "first_name": "Prom",
+    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQGKXry88ZGAAw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702093581326?e=1732147200&v=beta&t=jbtI6ElT78ucJb8KG5PubWOPZH9Gkt_hXPYtuLM21Eo",
+    "about": "Software Engineer, Data Science Specialist, Senior Pharmacist & Pharmaceutical Legal Specialist.",
+    "contacts": [
+        {
+            "type": "mail",
+            "value": "psengrith@gmail.com"
+        },
+        {
+            "type": "mail",
+            "value": "psengrith.dev@gmail.com"
+        },
+        {
+            "type": "tel",
+            "value": "+85585493905"
+        }
+    ],
+    "social_ids": [
+        {
+            "name": "@psengrith",
+            "type": "linkedin",
+            "link": "https://www.linkedin.com/in/psengrith/"
+        },
+        {
+            "name": "@psengrith",
+            "type": "github",
+            "link": "https://github.com/psengrith/"
+        },
+        {
+            "name": "@psengrith",
+            "type": "gitlab",
+            "link": "https://gitlab.com/psengrith/"
+        },
+        {
+            "name": "0009-0001-7735-278X",
+            "type": "orcid",
+            "link": "https://orcid.org/0009-0001-7735-278X"
+        }
+    ],
+    "projects": {
+        "isar": {
+            "name": "isar-community",
+            "summary": "Extremely fast, easy to use, and fully async NoSQL database for Flutter.",
+            "link": "https://github.com/isar-community",
+            "cover_url": "https://isar.dev/isar.svg",
+            "type": "contributor",
+            "contribution": [
+                "bug",
+                "documentation"
+            ],
+            "tags": [
+                "database",
+                "rust",
+                "dart",
+                "flutter",
+                "open source"
+            ]
+        },
+        "quizell": {
+            "name": "Quizell",
+            "summary": "#1 Medical Quiz App in Cambodia. Quizell is the leading medical MCQ platform, supporting students in preparation for taking computerized exam. Our platform available on both PC, App Store and Play Store.",
+            "link": "https://quizell.cc",
+            "cover_url": "data:image/png;base64,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",
+            "type": "owner",
+            "contribution": [
+                "code",
+                "bug",
+                "testing",
+                "documentation",
+                "implementation"
+            ],
+            "tags": [
+                "app",
+                "web",
+                "dart",
+                "flutter",
+                "firebase",
+                "closed source"
+            ]
+        },
+        "odoo": {
+            "name": "Odoo",
+            "summary": "",
+            "link": "https://github.com/odoo/odoo",
+            "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFT-Y0lAmy2WK6QtK0ZfzTi0OMERiiPiLSCg&s",
+            "type": "contributor",
+            "contribution": [
+                "bug",
+                "documentation",
+                "implementation"
+            ],
+            "tags": [
+                "ERP",
+                "implementation",
+                "consultation",
+                "business applications",
+                "closed source",
+                "open source"
+            ]
+        },
+        "tableau": {
+            "name": "Data Visualization",
+            "summary": "",
+            "link": "https://public.tableau.com/app/profile/psengrith/vizzes",
+            "cover_url": "data:image/png;base64,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",
+            "tags": [
+                "visualization",
+                "data science",
+                "open source"
+            ]
+        }
+    },
+    "publications": [
+        {
+            "type": "thesis",
+            "title": "Perception and Acceptability of Antimicrobial Stewardship among Professionals in Private Hospital and Clinics in Phnom Penh: A Qualitative Study.",
+            "link": "To be published",
+            "authorship": "Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology, Project Administration, Visualization, Writing - Orignal Draft"
+        },
+        {
+            "type": "article",
+            "title": "High PrEP acceptability and need for tailored implementation in Cambodian key populations: results from a qualitative assessment",
+            "link": "https://doi.org/10.1080/09540121.2024.2308029",
+            "authorship": "Project Administration & Investigation"
+        }
+    ],
+    "experiences": [
+        {
+            "duration": "09/2022 - 01/2024",
+            "role": "Social Protection Analyst",
+            "organization": "General Secretariat for National Social Protection Council (GS-NSPC)",
+            "summary": "Universal Health Coverage and Social Health Protection Policy and Advocacy, Stakeholders Coordination, Qualitative Policy Research."
+        },
+        {
+            "duration": "04/2022 - 06/2022",
+            "role": "Research Assistant",
+            "organization": "University of Health Sciences",
+            "summary": "Focus Group Discussions Coordination. KH-EN Interpretation, Translation & Transcription."
+        },
+        {
+            "duration": "01/2022 - 07/2022",
+            "role": "Product Specialist",
+            "organization": "DKSH (Cambodia) Co., Ltd.",
+            "summary": "Advising Customers on Medical Devices and Medical Equipments."
+        },
+        {
+            "duration": "08/2020 - 08/2021",
+            "role": "Product Specialist",
+            "organization": "Dynamic Pharma Co. Ltd.",
+            "summary": "Advising Customers on Medical Devices and Medical Equipments."
+        },
+        {
+            "duration": "04/2017 - 07/2020",
+            "role": "Regulatory Affairs Supervisor & Responsible Person for Pharmacovigilance.",
+            "organization": "Pharmaproduct Manufacturing (PPM)",
+            "summary": "Product Safety Training, Documenting Common Technical Documents (CTD), Africa & ASEAN Pharmaceutical, Cosmetics & Medical Devices Registration Compliance Services."
+        }
+    ],
+    "experiences-part": [
+        {
+            "duration": "01/2019 - Present",
+            "role": "English Teacher (Part-Time)",
+            "organization": "Paññāsāstra International School (1st Campus)",
+            "summary": "Teching English as Second Language to Young Adults."
+        }
+    ],
+    "education": {
+        "2019-2022": {
+            "school": "University of Health Sciences",
+            "location": "Phnom Penh, Cambodia",
+            "degree": "Master's Degree",
+            "field": "Master of Public Health",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQFzcgAqCG3OxQ/company-logo_200_200/company-logo_200_200/0/1641191920855/uhs_cambodia_logo?e=1734566400&v=beta&t=cz6NAe6Wozb1dwCv0od8ObudCqY7bDb2IOie2UYL2OA",
+            "link": "https://www.linkedin.com/company/uhsedukh",
+            "description": "",
+            "skills": [
+                "Health Policy",
+                "Occupational Health",
+                "Health Promotion",
+                "Public Health Management",
+                "Biostatistics",
+                "Research Methodologies",
+                "Program Evaluation",
+                "Epidemiology",
+                "Rapid Survey"
+            ]
+        },
+        "2023-2026": {
+            "school": "Birla Institute of Technology and Science",
+            "location": "Pilani, India",
+            "degree": "Bachelor's Degree",
+            "field": "BSc. in Computer Sciences",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQHJcHjUCqWVbA/company-logo_200_200/company-logo_200_200/0/1695033146996/birla_institute_of_technology_and_science_pilani_logo?e=1734566400&v=beta&t=cjMDfIwGPF9swv20XBFPEkFiGtbiUYsxSCCn71RrvAM",
+            "link": "https://www.linkedin.com/school/birla-institute-of-technology-and-science-pilani",
+            "description": "",
+            "skills": [
+                "Algorithm Design and Analysis",
+                "Data Structure and Algorithm",
+                "Programming in C/C++",
+                "Web Programming (HTML, CSS and JS)",
+                "Programming in Java",
+                "Linear Programming and Optimization",
+                "Dynamic Programming",
+                "Graph Theories",
+                "Artifical Intelligence and Machine Learning",
+                "General Biology",
+                "Bioinformatics",
+                "Discrete Mathemetics",
+                "Statistics"
+            ]
+        },
+        "2011-2016": {
+            "school": "University of Health Sciences",
+            "location": "Phnom Penh, Cambodia",
+            "degree": "Bachelor's Degree",
+            "field": "Bachelor in Pharmacy",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQFzcgAqCG3OxQ/company-logo_200_200/company-logo_200_200/0/1641191920855/uhs_cambodia_logo?e=1734566400&v=beta&t=cz6NAe6Wozb1dwCv0od8ObudCqY7bDb2IOie2UYL2OA",
+            "link": "https://www.linkedin.com/company/uhsedukh",
+            "description": "",
+            "skills": [
+                "Pharmaceutical Sciences",
+                "Pharmaceutical Law and Regulation",
+                "Pharmacology",
+                "Pharmacokinetics",
+                "Pharmacy Management",
+                "Pharmaceutical Logistics",
+                "Clinical Pharmacy",
+                "Cell Biology",
+                "Melecular Biology",
+                "Biochemistry",
+                "Medical Laboratory Sciences"
+            ]
+        },
+        "2011-2015": {
+            "school": "University of Puthisastra",
+            "location": "Phnom Penh, Cambodia",
+            "degree": "Bachelor's Degree",
+            "field": "Bachelor Degree of English",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C510BAQHVAJH9D70PGg/company-logo_200_200/company-logo_200_200/0/1630618713572?e=1734566400&v=beta&t=qXHsxn6DT7kIxwdEpyALO4Zaj7nBP8m6vx93L2f0J-E",
+            "link": "https://www.linkedin.com/company/university-of-puthisastra",
+            "description": "",
+            "skills": [
+                "English as a Second Language (ESL)",
+                "Sociology",
+                "Critical Thinking",
+                "Basic Administrative Computer Applications"
+            ]
+        }
+    },
+    "trainings": {},
+    "certificates": [],
+    "books": [
+        {
+            "title": "Operacy",
+            "author": "Christopher Lee",
+            "cover_url": "https://library.khmerstudies.org/cgi-bin/koha/opac-image.pl?imagenumber=5723"
+        },
+        {
+            "title": "The Laws of Human Nature",
+            "author": "Robert Greene",
+            "cover_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1620206225i/39330937.jpg"
+        },
+        {
+            "title": "The Art of War",
+            "author": "Sun Tzu, Thomas Cleary (Translator)",
+            "cover_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630683326i/10534.jpg"
+        },
+        {
+            "title": "Campbell Essential Biology with Physiology, 5th Ed.",
+            "author": "Eric J. Simon, and al.",
+            "cover_url": "https://rukminim2.flixcart.com/image/832/832/kkyc9zk0/book/r/q/k/campbell-essential-biology-with-physiology-global-edition-original-imagy63hccaygkvz.jpeg?q=70&crop=false"
+        },
+        {
+            "title": "Introduction to Probability and Statistics for Engineers and Scientists, 6th Ed.",
+            "author": "Sheldon M. Ross",
+            "cover_url": "https://d16jkos453if22.cloudfront.net/9780128243466.jpg"
+        },
+        {
+            "title": "ស្រីហិតោបទេស",
+            "author": "ព្រះភិក្ខុ ប៉ាង ខាត់ (វិរិយបណ្ឌិតោ)",
+            "cover_url": "https://www.elibraryofcambodia.org/wp-content/uploads/2014/04/Srey-hek-tao-bor-tes-Volume-1-2-3-4-Book-Cover.jpg"
+        }
+    ],
+    "movies-series": [
+        {
+            "title": "មរតកបេះដូង (2024)",
+            "author": "Black Box Studio",
+            "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmxxUbLqlYSeQPOYRCZRkbLb783EIqI2VjKw&s"
+        },
+        {
+            "title": "The Three Body Problem (2024)",
+            "author": " Liu Cixin",
+            "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2wZzS-yiEU9dDrkRvsmHWWCOflwCqRtzeJQ&s"
+        },
+        {
+            "title": "Dark Matter (2024)",
+            "author": "William Blake Crouch",
+            "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkStwhqhTD7PMnffF-L6C6g4QiPRnndUCsmw&s"
+        },
+        {
+            "title": "Oppenheimer (2023)",
+            "author": "Christopher Nolan",
+            "cover_url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg"
+        }
+    ]
+}
