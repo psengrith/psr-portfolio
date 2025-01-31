@@ -1,7 +1,7 @@
 {
     "last_name": "Sengrith",
     "first_name": "Prom",
-    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQGKXry88ZGAAw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702093581326?e=1732147200&v=beta&t=jbtI6ElT78ucJb8KG5PubWOPZH9Gkt_hXPYtuLM21Eo",
+    "photo_url": "https://avatars.githubusercontent.com/u/172288069?v=4",
     "about": "Software Engineer, Data Science Specialist, Senior Pharmacist & Pharmaceutical Legal Specialist.",
     "contacts": [
         {
@@ -40,6 +40,22 @@
         }
     ],
     "projects": {
+        "erd_rs": {
+            "name": "erd_rs",
+            "summary": "A command line utility that take Rust code as the source of truth to produce a entity relation diagram markdown file (e.g., mermaid.js file).",
+            "link": "https://github.com/erd_rs",
+            "cover_url": "https://github.com/psengrith/erd_rs/raw/main/logo.jpeg",
+            "contribution": [
+                "code",
+                "bug",
+                "documentation"
+            ],
+            "tags": [
+                "command-line",
+                "mermaidjs",
+                "entity-relation"
+            ]
+        },
         "isar": {
             "name": "isar-community",
             "summary": "Extremely fast, easy to use, and fully async NoSQL database for Flutter.",
@@ -55,48 +71,6 @@
                 "rust",
                 "dart",
                 "flutter",
-                "open source"
-            ]
-        },
-        "quizell": {
-            "name": "Quizell",
-            "summary": "#1 Medical Quiz App in Cambodia. Quizell is the leading medical MCQ platform, supporting students in preparation for taking computerized exam. Our platform available on both PC, App Store and Play Store.",
-            "link": "https://quizell.cc",
-            "cover_url": "data:image/png;base64,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",
-            "type": "owner",
-            "contribution": [
-                "code",
-                "bug",
-                "testing",
-                "documentation",
-                "implementation"
-            ],
-            "tags": [
-                "app",
-                "web",
-                "dart",
-                "flutter",
-                "firebase",
-                "closed source"
-            ]
-        },
-        "odoo": {
-            "name": "Odoo",
-            "summary": "A suite of web based open source business apps.",
-            "link": "https://github.com/odoo/odoo",
-            "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFT-Y0lAmy2WK6QtK0ZfzTi0OMERiiPiLSCg&s",
-            "type": "contributor",
-            "contribution": [
-                "bug",
-                "documentation",
-                "implementation"
-            ],
-            "tags": [
-                "ERP",
-                "implementation",
-                "consultation",
-                "business applications",
-                "closed source",
                 "open source"
             ]
         },
